@@ -112,8 +112,10 @@ def del_disuse_slack_guestusers():
         r = del_slack_user(k)
         print(r)
 
+
+print(USER_LIST_TOKEN)
+print(USER_ACCESSLOG_TOKEN)
 a = get_userinfo()
 print(a)
-
 r = get_inactive_guests()
 print(r)
