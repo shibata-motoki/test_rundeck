@@ -11,8 +11,8 @@ USERLIST_URL = "https://slack.com/api/users.list"
 USER_ACCESS_LOG_URL = "https://slack.com/api/team.accessLogs"
 DELETE_URL = "https://slack.com/api/users.admin.setInactive"
 LAST_UPDATE_DATE = 180
-USER_LIST_TOKEN = sys.argv[1]
-USER_ACCESSLOG_TOKEN = sys.argv[2]
+USER_LIST_TOKEN = sys.argv[2]
+USER_ACCESSLOG_TOKEN = sys.argv[3]
 
 
 def get_userinfo():
